@@ -1,0 +1,58 @@
+html {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    background-color: gray;
+}
+button {
+    display: none;
+    margin: 20px auto;
+    border: none;
+    background: gray;
+    color: lightcoral;
+    width: 300px;
+    padding: 10px;
+    font-size: 25px;
+}
+button:hover {
+    border: solid 2px turquoise;
+    color: turquoise;
+    padding: 8px;
+}
+img {
+    height: 350px;
+    margin-bottom: 20px;
+}
+h1 {
+    margin: 20px 0px;
+    font-size: 30px;
+}
+h2 {
+    font-size: 25px;
+}
+#container {
+    width: 700px;
+    background-color: lightcoral;
+    margin: 30px auto;
+    padding: 0px 20px;
+}
+#container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+#container:before {
+    content: "";
+    display: table;
+    clear: both;
+}
+#start {
+    margin-top: 0px;
+    font-size: 20px;
+}
+#results {
+    margin-top: 20px;
+}
+#timer {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
