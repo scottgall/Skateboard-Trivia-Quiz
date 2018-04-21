@@ -1,9 +1,11 @@
  
+$( document ).ready(function() {
+
 var correct;
 var incorrect;
 var unanswered;
 var intervalId;
-var answerTimer = 10;
+var answerTimer = 6;
 var currentQuestion = 0;
 var timeLeft = 13;
 var questions = [
@@ -13,12 +15,12 @@ var questions = [
     answer: 2
 },  
 {
-    question: "A skater should never hold their board by the _______?",
+    question: "A skateboard should never be carried by the _______?",
     choices: ["truck", "tail", "deck", "wheel"],
     answer: 0
 },
 {
-    question: "Who is the only person to win Thrasher Magazine's coveted 'Skater of the Year' award twice?",
+    question: "Who is the only person to win Thrasher Magazine's 'Skater of the Year' award twice?",
     choices: ["Eric Koston", "Tony Hawk", "Danny Way", "Chris Cole"],
     answer: 3
 },
@@ -173,4 +175,6 @@ $("#restart").on('click', function () {
 })
 
 newGame();
+
+});
 

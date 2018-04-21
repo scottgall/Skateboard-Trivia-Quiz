@@ -1,13 +1,14 @@
 html {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
-    background-color: gray;
+    background-color: #484848;
+    color: #484848;
 }
 button {
     display: none;
     margin: 20px auto;
     border: none;
-    background: gray;
+    background: #484848;
     color: lightcoral;
     width: 300px;
     padding: 10px;
