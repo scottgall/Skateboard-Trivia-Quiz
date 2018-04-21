@@ -26,7 +26,7 @@ var questions = [
 },
 {
     question: "Which skateboard component was notorious for breaking up until just a few years ago?",
-    choices: ["bushing", "kingpin", "axel", "pivot cup"],
+    choices: ["bushing", "kingpin", "axle", "pivot cup"],
     answer: 1
 },
 {
