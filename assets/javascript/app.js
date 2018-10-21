@@ -20,8 +20,8 @@ var questions = [
     answer: 0
 },
 {
-    question: "Who is the only person to win Thrasher Magazine's 'Skater of the Year' award twice?",
-    choices: ["Eric Koston", "Tony Hawk", "Danny Way", "Chris Cole"],
+    question: "Which of these skaters was named Thrasher Magazine's 'Skater of the Year' award twice?",
+    choices: ["Eric Koston", "Tony Hawk", "John Cardiel", "Chris Cole"],
     answer: 3
 },
 {
@@ -46,7 +46,7 @@ var questions = [
 },
 {
     question: "What is former-pro Ragdoll's real name?",
-    choices: ["Jesse Plumb", "Anthony Scalamere", "Andrew Schneider", "Bill Danforth"],
+    choices: ["Mike Plumb", "Anthony Scalamere", "Andrew Schneider", "Bill Danforth"],
     answer: 1
 },
 {
