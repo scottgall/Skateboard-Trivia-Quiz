@@ -10,7 +10,7 @@ var currentQuestion = 0;
 var timeLeft = 13;
 var questions = [
 {
-    question: "What's the term that describes someone pushing with their front foot?",
+    question: "Which term describes pushing with your front foot?",
     choices: ["steez", "schneider", "mongo", "goofy"],
     answer: 2
 },  
@@ -20,12 +20,12 @@ var questions = [
     answer: 0
 },
 {
-    question: "Which of these skaters was named Thrasher Magazine's 'Skater of the Year' award twice?",
+    question: "Which of these skaters was Thrasher Magazine's 'Skater of the Year' twice?",
     choices: ["Eric Koston", "Tony Hawk", "John Cardiel", "Chris Cole"],
     answer: 3
 },
 {
-    question: "Which skateboard component was notorious for breaking up until just a few years ago?",
+    question: "Which skateboard component was notorious for breaking?",
     choices: ["bushing", "kingpin", "axle", "pivot cup"],
     answer: 1
 },
